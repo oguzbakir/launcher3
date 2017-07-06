@@ -34,4 +34,5 @@ dependencies {
     compile "com.android.support:recyclerview-v7:${project.ANDROID_SUPPORT_VERSION}"
 
     compile fileTree(dir: 'lib', include: ['*.jar'])
+
 }
