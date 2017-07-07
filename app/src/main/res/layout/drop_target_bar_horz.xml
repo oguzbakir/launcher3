@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.DropTargetBar
+<com.vestel.launcher.DropTargetBar
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -29,12 +29,13 @@
 
         <!-- Delete target -->
 
-        <com.android.launcher3.DeleteDropTarget
+        <com.vestel.launcher.DeleteDropTarget
             launcher:hideParentOnDisable="true"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
+            android:background="#4ede0000"
             android:id="@+id/delete_target_text"
             style="@style/DropTargetButton"
             android:text="@string/remove_drop_target_label" />
@@ -47,10 +48,11 @@
 
         <!-- App Info -->
 
-        <com.android.launcher3.InfoDropTarget
+        <com.vestel.launcher.InfoDropTarget
             launcher:hideParentOnDisable="true"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#4e1e4801"
             android:layout_gravity="center"
             android:gravity="center"
             android:id="@+id/info_target_text"
@@ -65,15 +67,16 @@
 
         <!-- Uninstall target -->
 
-        <com.android.launcher3.UninstallDropTarget
+        <com.vestel.launcher.UninstallDropTarget
             launcher:hideParentOnDisable="true"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:background="#4e8c0000"
             android:gravity="center"
             android:id="@+id/uninstall_target_text"
             style="@style/DropTargetButton"
             android:text="@string/uninstall_drop_target_label" />
     </FrameLayout>
 
-</com.android.launcher3.DropTargetBar>
+</com.vestel.launcher.DropTargetBar>

@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
+
+
     packagingOptions {
         exclude 'LICENSE.txt'
         exclude 'META-INF/LICENSE'
@@ -16,11 +18,12 @@ android {
 
     defaultConfig {
         useJack = false
-        applicationId 'com.android.launcher3'
+        applicationId 'com.vestel.launcher'
         minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
         versionCode Integer.parseInt(project.VERSION_CODE)
         versionName project.VERSION_NAME
+
     }
 
     lintOptions {
@@ -33,6 +36,6 @@ dependencies {
     compile "com.android.support:palette-v7:${ANDROID_SUPPORT_VERSION}"
     compile "com.android.support:recyclerview-v7:${project.ANDROID_SUPPORT_VERSION}"
 
-    compile fileTree(dir: 'lib', include: ['*.jar'])
 
+    compile fileTree(dir: 'lib', include: ['*.jar'])
 }

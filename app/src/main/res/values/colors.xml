@@ -35,10 +35,10 @@
     <color name="quantum_panel_bg_color">#FFF5F5F5</color>
 
     <color name="outline_color">#FFFFFFFF</color>
-    <color name="all_apps_divider_color">#1E000000</color>
+    <color name="all_apps_divider_color">#1e000000</color>
     <color name="all_apps_caret_color">#FFFFFFFF</color>
     <color name="all_apps_caret_shadow_color">#22000000</color>
-    <color name="all_apps_container_color">#FFF2F2F2</color>
+    <color name="all_apps_container_color">#c8f2f2f2</color>
     <color name="all_apps_navbar_color">#28000000</color>
 
     <color name="spring_loaded_panel_color">#40FFFFFF</color>
