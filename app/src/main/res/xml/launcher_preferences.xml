@@ -22,5 +22,11 @@
             android:defaultValue="@bool/allow_rotation"
             android:persistent="true"
     />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/grid"
+        android:entryValues="@array/grid"
+        android:key="list_preference_1"
+        android:title="Izgara Boyutu" />
 
 </PreferenceScreen>
